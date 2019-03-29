@@ -146,22 +146,20 @@ public class DataBaseWorker {
              PreparedStatement prStAddress = connect.getDbConnection().prepareStatement(selectAddress)) {
 
             prStPerson.setInt(1, randomRecordNumber);
-            ResultSet rs = prStPerson.executeQuery();
-            rs.next();
+            ResultSet rsPerson = prStPerson.executeQuery();
+            rsPerson.next();
+            name = rsPerson.getString(1);
+            surname = rsPerson.getString(2);
+            middlename = rsPerson.getString(3);
+            inn = rsPerson.getString(4);
+            birthday = rsPerson.getDate(5);
+            gender = rsPerson.getString(6);
+            addressId = rsPerson.getString(7);
 
-            name = rs.getString(1);
-            surname = rs.getString(2);
-            middlename = rs.getString(3);
-            inn = rs.getString(4);
-            birthday = rs.getDate(5);
-            gender = rs.getString(6);
-            addressId = rs.getString(7);
 
             prStAddress.setInt(1, Integer.parseInt(addressId));
-
             ResultSet rsAddress = prStAddress.executeQuery();
             rsAddress.next();
-
             postcode = rsAddress.getString(1);
             country = rsAddress.getString(2);
             region = rsAddress.getString(3);
@@ -169,6 +167,7 @@ public class DataBaseWorker {
             street = rsAddress.getString(5);
             house = rsAddress.getString(6);
             flat = rsAddress.getString(7);
+
 
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();

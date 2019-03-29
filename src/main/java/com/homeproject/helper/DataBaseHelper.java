@@ -15,19 +15,19 @@ public class DataBaseHelper {
 
     //есть ли хотябы одна запись в таблице
     boolean checkExistRecordInBD() {
-        boolean isUserExists = false;
+        boolean isRecordsExists = false;
         String select = "SELECT * FROM " + ConstDBName.USER_TABLE_PERSON;
 
         try (PreparedStatement prSt = connect.getDbConnection().prepareStatement(select);
              ResultSet resultSet = prSt.executeQuery()) {
 
             if (resultSet.next()) {
-                isUserExists = true;
+                isRecordsExists = true;
             }
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-        return isUserExists;
+        return isRecordsExists;
     }
 
     // есть ли в БД пользователь с определенным ФИО
@@ -56,12 +56,12 @@ public class DataBaseHelper {
     }
 
     // количество записей в таблице
-    int countRecordsInTable(String nameTable) {
-        String sqlSelect = "SELECT id FROM " + nameTable;
+    int countRecordsInTable(String tableName) {
+        String sqlSelect = "SELECT id FROM " + tableName;
         ResultSet resultSet;
         int countRecord = 0;
 
-        try (PreparedStatement prSt = connect.getDbConnection().prepareCall(sqlSelect)) {
+        try (PreparedStatement prSt = connect.getDbConnection().prepareStatement(sqlSelect)) {
             resultSet = prSt.executeQuery();
             while (resultSet.next()) {
                 countRecord++;
@@ -72,7 +72,7 @@ public class DataBaseHelper {
         return countRecord;
     }
 
-    // порядковые номера записей в таблице
+    // Id номера записей в таблице
     private int[] getIdNumber(int limit) {
         String sqlSelect = "SELECT id FROM " + ConstDBName.USER_TABLE_PERSON;
         int[] id = new int[limit];
@@ -91,13 +91,14 @@ public class DataBaseHelper {
         return id;
     }
 
-    //массив ID записей в бд в случайном поредке
+    //массив ID записей в бд отсортированный случайном поредке
     int[] getShuffleRecordsNumbers(int limit) {
         ArrayList<Integer> listRecordsNumbers = new ArrayList<>();
         int[] arrayRandomNumbers = new int[limit];
+        int[] arrayIdNumbers = getIdNumber(limit);
 
         for (int i = 0; i < limit; i++) {
-            listRecordsNumbers.add(getIdNumber(limit)[i]);
+            listRecordsNumbers.add(arrayIdNumbers[i]);
         }
         Collections.shuffle(listRecordsNumbers);
 

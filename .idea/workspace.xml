@@ -5,8 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Users.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Users.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Users.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Users.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homeproject/helper/DataBaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homeproject/helper/DataBaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homeproject/worker/DataBaseWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homeproject/worker/DataBaseWorker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +32,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/worker/DataBaseWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="2115">
+              <caret line="148" column="59" selection-start-line="148" selection-start-column="59" selection-end-line="148" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,41 +55,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConnectDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConstDBName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="420">
-                <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/СonfigurationDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -88,16 +67,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/helper/DataBaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+            <state relative-caret-position="486">
+              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#checkExistRecordInBD#0;class#DataBaseHelper#0" />
-                <element signature="method#checkContainUserInBD#0;class#DataBaseHelper#0" />
-                <element signature="method#countRecordsInTable#0;class#DataBaseHelper#0" />
-                <element signature="method#getIdNumber#0;class#DataBaseHelper#0" />
-                <element signature="method#getShuffleRecordsNumbers#0;class#DataBaseHelper#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/helper/StorageUsers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -143,13 +126,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/helper/dataBaseHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/helper/UniqueRandomNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/testBD/DataBaseWorker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/homeproject/helper/DataBaseHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/homeproject/helper/StorageUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/config/СonfigurationDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/homeproject/config/ConnectDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/helper/PathToFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/homeproject/worker/DataBaseWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/worker/PdfWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/worker/ExcelWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/worker/HttpWorker.java" />
@@ -157,6 +136,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateData.java" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homeproject/worker/DataBaseWorker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homeproject/config/ConnectDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homeproject/helper/DataBaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homeproject/helper/StorageUsers.java" />
       </list>
     </option>
   </component>
@@ -277,7 +260,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553883066880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553886087371" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -353,18 +336,21 @@
       <workItem from="1553785154626" duration="7113000" />
       <workItem from="1553830703001" duration="22600000" />
       <workItem from="1553877530911" duration="1179000" />
-      <workItem from="1553879135858" duration="1600000" />
+      <workItem from="1553879135858" duration="2985000" />
+      <workItem from="1553884538492" duration="422000" />
+      <workItem from="1553885101711" duration="975000" />
+      <workItem from="1553886436887" duration="848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91376000" />
+    <option name="totallyTimeSpent" value="95006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -400,13 +386,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Chrome Download/QA-Task3/ApachePoiProject/src/main/java/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -475,27 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/helper/StorageUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="37" column="114" selection-start-line="37" selection-start-column="114" selection-end-line="37" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/worker/PdfWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/worker/ExcelWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -557,20 +515,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/worker/PdfWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConstDBName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="59" lean-forward="true" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/СonfigurationDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/worker/DataBaseWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="2115">
+          <caret line="148" column="59" selection-start-line="148" selection-start-column="59" selection-end-line="148" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConnectDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -579,40 +582,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/helper/DataBaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+        <state relative-caret-position="486">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#checkExistRecordInBD#0;class#DataBaseHelper#0" />
-            <element signature="method#checkContainUserInBD#0;class#DataBaseHelper#0" />
-            <element signature="method#countRecordsInTable#0;class#DataBaseHelper#0" />
-            <element signature="method#getIdNumber#0;class#DataBaseHelper#0" />
-            <element signature="method#getShuffleRecordsNumbers#0;class#DataBaseHelper#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConstDBName.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/helper/StorageUsers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/СonfigurationDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="420">
-            <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="215">
+          <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
         </state>
       </provider>
     </entry>
