@@ -2,12 +2,9 @@ package com.homeproject.processing;
 
 import com.homeproject.helper.DateHelper;
 import com.homeproject.helper.PathToFiles;
-
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.*;
@@ -18,12 +15,12 @@ public class GenerateData {
     private DateHelper dateHelper = new DateHelper();
 
     // Генерация индекса случайным образом от 100000 до 2000000
-    public int getIndex() {
+    int getIndex() {
         return 100000 + random.nextInt(100000);
     }
 
     // Генерация даты рождения
-    public LocalDate getDataBirth() {
+    LocalDate getDataBirth() {
         int year = 1930 + random.nextInt(85);
         int month = 1 + random.nextInt(12);
         int day = 1 + random.nextInt(30);
@@ -56,8 +53,6 @@ public class GenerateData {
             Collections.shuffle(lines);
             name = lines.toArray(new String[0]);
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -65,7 +60,7 @@ public class GenerateData {
     }
 
     // Получаем пол юзера
-    public boolean getGender(String name) {
+    boolean getGender(String name) {
 
         boolean itsMan = false;
         try (BufferedReader reader = new BufferedReader(new FileReader(new PathToFiles().fileNameMan))) {
@@ -87,8 +82,6 @@ public class GenerateData {
                     itsMan = true;
                 }
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="226b8008-c165-418c-81de-b0160c04f5c3" name="Default Changelist" comment="" />
+    <list default="true" id="226b8008-c165-418c-81de-b0160c04f5c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Users.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Users.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateData.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/worker/DataBaseWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="186" column="25" lean-forward="true" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
+            <state relative-caret-position="-34">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,44 +44,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/models/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConnectDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="91" column="5" lean-forward="true" selection-start-line="89" selection-start-column="4" selection-end-line="91" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="105">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding>
-                <element signature="method#getDataBirth#0;class#GenerateData#0" />
-                <element signature="method#getNameFromFile#0;class#GenerateData#0" />
-                <element signature="method#getGender#0;class#GenerateData#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateInn.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConstDBName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateUser.java">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="420">
+                <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/СonfigurationDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="59" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/helper/DataBaseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#checkExistRecordInBD#0;class#DataBaseHelper#0" />
+                <element signature="method#checkContainUserInBD#0;class#DataBaseHelper#0" />
+                <element signature="method#countRecordsInTable#0;class#DataBaseHelper#0" />
+                <element signature="method#getIdNumber#0;class#DataBaseHelper#0" />
+                <element signature="method#getShuffleRecordsNumbers#0;class#DataBaseHelper#0" />
               </folding>
             </state>
           </provider>
@@ -101,6 +122,9 @@
       <find>Where</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -123,8 +147,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/helper/StorageUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/config/СonfigurationDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/config/ConnectDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateData.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/helper/PathToFiles.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/worker/DataBaseWorker.java" />
@@ -133,6 +155,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/worker/HttpWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateUserApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateData.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -157,6 +181,7 @@
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -252,7 +277,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553882319626" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553883066880" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -328,18 +353,18 @@
       <workItem from="1553785154626" duration="7113000" />
       <workItem from="1553830703001" duration="22600000" />
       <workItem from="1553877530911" duration="1179000" />
-      <workItem from="1553879135858" duration="946000" />
+      <workItem from="1553879135858" duration="1600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90722000" />
+    <option name="totallyTimeSpent" value="91376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,7 +373,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27092198" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27092198" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,55 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConstDBName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/СonfigurationDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/helper/DataBaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#checkExistRecordInBD#0;class#DataBaseHelper#0" />
-            <element signature="method#checkContainUserInBD#0;class#DataBaseHelper#0" />
-            <element signature="method#countRecordsInTable#0;class#DataBaseHelper#0" />
-            <element signature="method#getIdNumber#0;class#DataBaseHelper#0" />
-            <element signature="method#getShuffleRecordsNumbers#0;class#DataBaseHelper#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/helper/DateHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -506,32 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="89" selection-start-column="4" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="method#getDataBirth#0;class#GenerateData#0" />
-            <element signature="method#getNameFromFile#0;class#GenerateData#0" />
-            <element signature="method#getGender#0;class#GenerateData#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateInn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -563,16 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/worker/DataBaseWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="186" column="25" lean-forward="true" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateUserApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
@@ -582,11 +522,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="59" />
+        <state relative-caret-position="417">
+          <caret line="33" column="75" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateInn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/processing/GenerateData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDataBirth#0;class#GenerateData#0" />
+            <element signature="method#getNameFromFile#0;class#GenerateData#0" />
+            <element signature="method#getGender#0;class#GenerateData#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="91" column="5" selection-start-line="89" selection-start-column="4" selection-end-line="91" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/worker/DataBaseWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/helper/DataBaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkExistRecordInBD#0;class#DataBaseHelper#0" />
+            <element signature="method#checkContainUserInBD#0;class#DataBaseHelper#0" />
+            <element signature="method#countRecordsInTable#0;class#DataBaseHelper#0" />
+            <element signature="method#getIdNumber#0;class#DataBaseHelper#0" />
+            <element signature="method#getShuffleRecordsNumbers#0;class#DataBaseHelper#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/ConstDBName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homeproject/config/СonfigurationDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="420">
+            <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
