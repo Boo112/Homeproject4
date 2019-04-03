@@ -24,7 +24,7 @@
 - для подключения к БД, нужно изменить файл resources/database.config в папке resources в
 папке с проектом.
 
-пример параметров в файле: 
+пример параметров в файле:   
                     dbHost = localhost  
                     dbPort = 3306  
                     dbUser = root  
