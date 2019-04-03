@@ -16,5 +16,5 @@ public class PathToFiles {
     public String fileOblast = "Resources" + File.separator + "oblast.txt";
     public String fileStreets = "Resources" + File.separator + "streets.txt";
     public String fileFont = "Resources" + File.separator + "arial.ttf";
-
+    public String fileParametresForDB = "Resources" + File.separator + "database.config";
 }

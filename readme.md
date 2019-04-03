@@ -21,11 +21,16 @@
 
 - в результате будет создано два файла(Users.xls,Users.pdf) в папке с проектом
 
-- для подключения к БД, нужно изменить параметры в class СonfigurationDB(default parameters:    Host = "localhost";
-                                                                                                Port = "3306";
-                                                                                                User = "root";
-                                                                                                Password = "12345";
-                                                                                                Name = "users";)
+- для подключения к БД, нужно изменить файл resources/database.config в папке resources в
+папке с проектом.
+
+пример параметров в файле: 
+                    dbHost = localhost
+                    dbPort = 3306
+                    dbUser = root
+                    dbPassword = 12345
+                    dbName = users
+                    
 - кодировка БД cp1251 default collation                                                          
                                                                                                
 
