@@ -25,11 +25,11 @@
 папке с проектом.
 
 пример параметров в файле: 
-                    dbHost = localhost
-                    dbPort = 3306
-                    dbUser = root
-                    dbPassword = 12345
-                    dbName = users
+                    - dbHost = localhost
+                    - dbPort = 3306
+                    - dbUser = root
+                    - dbPassword = 12345
+                    - dbName = users
                     
 - кодировка БД cp1251 default collation                                                          
                                                                                                
